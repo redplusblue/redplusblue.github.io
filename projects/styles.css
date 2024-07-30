@@ -1,23 +1,31 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f4f4f4;
+  padding: 0 0 2rem 0;
+  background: rgb(48, 51, 53);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 table {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 860px;
+  max-width: 80%;
   border-collapse: collapse;
   border-spacing: 2rem;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
 }
+
 tcaption {
   font-size: 24px;
   font-weight: 700;
-  color: #686868;
+  color: rgb(242, 240, 237);
   text-align: center;
 }
 
@@ -28,36 +36,39 @@ table th {
   font-size: 18px;
 }
 table th:nth-child(1) {
-  background: #4b296b;
+  background: #37392e;
   border-radius: 20px 0 0 0;
   color: white;
 }
 table th:nth-child(2) {
-  background: #4c2c72;
+  background: #383b30;
   color: white;
 }
 table th:nth-child(3) {
-  background: #77867f;
+  background: #383c31;
   color: white;
 }
 table th:nth-child(4) {
-  background: #87b37a;
+  background: #383e33;
+  color: white;
 }
 table th:nth-child(5) {
-  background: #9ce37d;
+  background: #394035;
+  color: white;
 }
 table th:nth-child(6) {
-  background: #b9f18d;
+  background: #394136;
   border-radius: 0 20px 0 0;
+  color: white;
 }
 
 table td {
   padding: 1rem 0;
-  border-bottom: 2px dashed #eeeded;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  color: #686868;
+  color: rgb(242, 240, 237);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
 }
 table tr:last-child td {
   border-bottom: none;
@@ -68,4 +79,14 @@ table col:nth-child(2) {
 
 .center {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(242, 240, 237);
+}
+
+a:hover {
+  color: #f4feff;
+  text-decoration: underline;
 }
