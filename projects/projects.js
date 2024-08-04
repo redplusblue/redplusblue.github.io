@@ -87,7 +87,7 @@ const projects = [
     "A simple stock sandbox portfolio app.",
     ["React", "Flask", "Python", "SQLAlchemy"],
     "https://github.com/redplusblue/phantom-portfolio",
-    ""
+    "https://redplusblue.github.io/phantom-portfolio/"
   ),
   new Project(
     "Dashboard",
