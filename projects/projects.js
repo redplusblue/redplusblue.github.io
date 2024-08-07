@@ -80,7 +80,7 @@ const projects = [
     "My portfolio website, showcasing my projects and skills.",
     ["HTML", "CSS", "JavaScript"],
     "https://github.com/redplusblue/portfolio",
-    "https://samirkabra.me"
+    "https://samirkabra.com"
   ),
   new Project(
     "Phantom Portfolio",
